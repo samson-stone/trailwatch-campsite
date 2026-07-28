@@ -1,0 +1,6 @@
+[package]
+name = "trailwatch-campsite"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

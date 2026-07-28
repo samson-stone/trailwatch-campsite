@@ -1,0 +1,15 @@
+MODULE shuttles
+FAMILY trailhead
+SHARD 20
+RECORDS 111
+SEED 3
+LIMIT 3
+END
+===
+MODULE maintenance
+FAMILY erosion
+SHARD 32
+RECORDS 214
+SEED 9
+LIMIT 4
+END

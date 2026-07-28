@@ -1,0 +1,8 @@
+/target/
+/fuzz/target/
+crash-*
+timeout-*
+oom-*
+leak-*
+artifact_prefix/
+.DS_Store

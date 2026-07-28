@@ -1,0 +1,10 @@
+language: rust
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+fuzz_targets:
+  - trail_plan_fuzzer
+  - trip_bundle_fuzzer
+  - trail_digest_fuzzer

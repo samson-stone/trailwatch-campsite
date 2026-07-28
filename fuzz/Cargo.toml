@@ -1,0 +1,30 @@
+[package]
+name = "trailwatch-campsite-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2024"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+trailwatch-campsite = { path = ".." }
+
+[[bin]]
+name = "trail_plan_fuzzer"
+path = "fuzz_targets/trail_plan_fuzzer.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "trip_bundle_fuzzer"
+path = "fuzz_targets/trip_bundle_fuzzer.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "trail_digest_fuzzer"
+path = "fuzz_targets/trail_digest_fuzzer.rs"
+test = false
+doc = false
